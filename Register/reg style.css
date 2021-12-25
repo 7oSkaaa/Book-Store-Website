@@ -1,0 +1,97 @@
+html{
+    font-family: sans-serif;
+    background-color: #FFFFE0;
+}
+
+.reg {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(226, 216, 127);
+    padding: 20px;
+}
+
+.h {
+    color: rgb(93, 93, 93);
+    font-size: 30px;
+}
+
+form {
+    color: #fff;
+}
+
+input[type=" text"],
+input[type="password"],
+input[type="email"] {
+    display: black;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    border: 1px solid teal;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    font-size: 16px;
+}
+
+input[type="date"] {
+    display: black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid teal;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #888;
+}
+
+label {
+    font-size: 20px;
+    color: rgb(93, 93, 93);
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+
+input[type="submit"] {
+    display: black;
+    width: 20%;
+    padding: 12px 30px;
+    margin: 20px 250px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: teal;
+    color: #fff;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+input[type="submit"]:hover {
+    background-color: tomato;
+}
+
+a {
+    color: rgb(93, 93, 93);
+    text-align: center;
+    margin: 30px 260px;
+    transition-duration: .3s;
+}
+
+a:hover{
+    color: blue;
+}
+
+#buttons {
+    color: #fff;
+    text-align: center;
+}
+
+.gender{
+    color: rgb(93, 93, 93);
+}

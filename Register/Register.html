@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registration</title>
+		<link rel = "stylesheet" href = " reg style.css" type = "text/css">
+    </head>
+    <body>
+        <script src="script.js"></script>
+
+        <div class="reg">
+            <h1 class="h">Books Site</h1>
+            <form name="form" onsubmit="return validateForm()">
+			<label>First Name: </label>
+                <input name="firstName" type=" text" placeholder="Please enter your first name"><br />
+				<label>Last Name: </label>
+				<input name="lastName" type=" text" placeholder="Please enter your last name"><br />
+				<label>Password: </label>
+                <input name="password" type="password" placeholder="Please enter your password"><br />
+				<label>Confirm Password: </label>
+                <input name="confirmPassword" type="password" placeholder="Enter your password again"><br />
+				<label>Email: </label>
+                <input name="EMail" type="email" placeholder="Enter Email"><br />
+				<label>Birth Date: </label>
+                <input type="date"><br />
+
+                <div class="gender">
+                    <span>Gender: </span>
+                    <select>
+                        <option>Male</option>
+                        <option>Famale</option>
+                    </select>
+                </div>
+				<div id = "buttons">
+                    <input type="submit" value="register"></input><br />
+                    <a href = "../Login/Login.html"> Have an account? </a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
