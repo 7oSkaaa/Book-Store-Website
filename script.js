@@ -1,4 +1,4 @@
-function printPage(){
+function printPage() {
     window.print();
 }
 
@@ -13,13 +13,12 @@ let counter = setInterval(() => {
     let minutes = Math.floor(((dateDiff % (1000 * 60 * 60)) / (1000 * 60)));
     let seconds = Math.floor((dateDiff % (1000 * 60)) / 1000);
 
-
     document.getElementById("days").innerHTML = days;
     document.getElementById("hours").innerHTML = hours;
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
 
-    if(dateDiff < 0){
+    if (dateDiff < 0) {
         clearInterval(counter);
     }
 

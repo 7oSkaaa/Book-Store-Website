@@ -1,6 +1,7 @@
-html{
+html {
     font-family: sans-serif;
 }
+
 header {
     background: white;
     height: 70px;
@@ -12,7 +13,7 @@ body {
     margin: 0;
 }
 
-#programmingHeader{
+#programmingHeader {
     text-align: center;
     padding: 10px;
     background-color: black;
@@ -20,12 +21,12 @@ body {
     margin: 0 auto;
 }
 
-#programmingHeader:hover{
-    color:darkblue;
+#programmingHeader:hover {
+    color: darkblue;
     transform: scale(1.5);
 }
 
-#topTrendingHeader{
+#topTrendingHeader {
     text-align: center;
     padding: 10px;
     background-color: black;
@@ -33,12 +34,12 @@ body {
     margin: 0 auto;
 }
 
-#topTrendingHeader:hover{
-    color:darkgreen;
+#topTrendingHeader:hover {
+    color: rgb(28, 136, 28);
     transform: scale(1.5);
 }
 
-#novelsHeader{
+#novelsHeader {
     text-align: center;
     padding: 10px;
     background-color: black;
@@ -46,35 +47,37 @@ body {
     margin: 0 auto;
 }
 
-#novelsHeader:hover{
-    color:darkorange;
+#novelsHeader:hover {
+    color: darkorange;
     transform: scale(1.5);
 }
 
-#footerId{
+#footerId {
     padding: 10px;
     background-color: white;
     transition: transform .5s;
     margin: 0 auto;
 }
 
-#footerId:hover{
-    color:darkblue;
+#footerId:hover {
+    color: darkblue;
     transform: scale(1.2);
 }
 
 #siteTitle {
     padding: 5px;
     background-color: white;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s;
+    /* Animation */
     margin: 0 auto;
 }
 
 #siteTitle:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-#left-nav  {
+#left-nav {
     float: left;
 }
 
@@ -82,15 +85,15 @@ body {
     float: right;
 }
 
-#right-nav li a{
-	display:block;
-	text-decoration:none;
-	color:#111;
-	font-size:1.2em;
+#right-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #111;
+    font-size: 1.2em;
 }
 
 ul li {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 #left-nav li {
@@ -104,14 +107,14 @@ ul li {
     margin: 15px;
 }
 
-.rightNav{
+.rightNav {
     padding: 5px;
     background-color: white;
     transition: transform .2s;
     margin: 0 auto;
 }
 
-.rightNav:hover{
+.rightNav:hover {
     transform: scale(1.5);
 }
 
@@ -123,6 +126,7 @@ h1 {
 a {
     color: black;
 }
+
 div.scrollmenu {
     background-color: black;
     opacity: 6;
@@ -153,9 +157,9 @@ footer {
     margin-top: 50px;
 }
 
-#button{
+#button {
     text-align: center;
-    margin:auto;
+    margin: auto;
     position: absolute;
     top: 3%;
     transform: translateX(560%);
@@ -165,14 +169,14 @@ footer {
     border-color: darkcyan;
 }
 
-#button:hover{
+#button:hover {
     background-color: rgb(7, 167, 167);
     border-radius: 50%;
     color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-#bigSale{
+#bigSale {
     text-align: center;
     margin: 0 auto;
     padding: 5px;
@@ -180,13 +184,12 @@ footer {
     transition: transform .5s;
 }
 
-#bigSale:hover{
+#bigSale:hover {
     color: cornflowerblue;
     transform: scale(1.5);
 }
 
-.until{
-    
+.until {
     transform: translate(50, 0);
     margin: 25px;
     margin-left: 33%;
@@ -195,41 +198,40 @@ footer {
     grid-template-columns: repeat(r, 1fr);
     color: black;
     gap: 1em;
-    padding:1em;
+    padding: 1em;
     background: cornflowerblue;
     font-family: sans-serif;
 }
 
-.until__component{
+.until__component {
     text-align: center;
     background-color: white;
     border-radius: 5px;
-    border-style:solid;
+    border-style: solid;
     border-width: thick;
-    border:rgb(7, 73, 73);
+    border: rgb(7, 73, 73);
     transition-duration: 0.5s;
 }
 
-.until__numeric{
+.until__numeric {
     color: black;
     padding: 0.5em 0;
     font-size: 3em;
     font-weight: bold;
 }
 
-.until__unit{
+.until__unit {
     font-size: 1.2em;
     padding-bottom: 1em;
     font-weight: bold;
     color: black;
-
 }
 
-.until__component:hover{
+.until__component:hover {
     background-color: rgb(196, 235, 235);
 }
 
-.until__event{
+.until__event {
     grid-column: span 4;
     text-align: center;
     color: white;
@@ -237,6 +239,6 @@ footer {
     transition-duration: .5s;
 }
 
-.until__event:hover{
+.until__event:hover {
     color: rgb(196, 235, 235);
 }
